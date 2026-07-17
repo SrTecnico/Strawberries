@@ -1,0 +1,5 @@
+pandas
+plotly express
+streamlit
+numpy
+numpy country_converter

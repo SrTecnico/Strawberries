@@ -125,7 +125,6 @@ fig_map = px.choropleth(
 fig_map.update_layout(title_font=dict(size=20), margin=dict(l=0, r=0, t=40, b=0), legend=dict(title=''), geo=dict(
                 showframe=False,
                 showcoastlines=True,
-                projection_type='equirectangular',
                 fitbounds="locations" 
                 )) 
 fig_map.update_traces(hovertemplate="<b>%{hovertext}</b><br>Year: %{customdata[0]}<br>Yield: %{z:,.0f} kg/ha<extra></extra>")

@@ -1,5 +1,5 @@
 pandas
-plotly.express
+plotly
 streamlit
 numpy
-numpy country_converter
+country_converter

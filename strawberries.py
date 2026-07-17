@@ -18,8 +18,8 @@ st.title("🍓 Strawberries Dashboard 🍓")
 
 @st.cache_data
 def load_data():
-    sp = pd.read_csv("C:/Users/guill/Desktop/data/Strawberries_Production.csv")
-    dt_trade = pd.read_csv("C:/Users/guill/Desktop/data/Strawberries_tradedata.csv", encoding='latin1', index_col=False)
+    sp = pd.read_csv("Strawberries_Production.csv")
+    dt_trade = pd.read_csv("Strawberries_tradedata.csv", encoding='latin1', index_col=False)
     
     sp = sp[sp['Flag'] != 'M']
 
